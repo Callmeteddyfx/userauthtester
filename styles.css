@@ -1,0 +1,103 @@
+html, body{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+#c1,#c2,#c3,#c4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#c1{
+    flex-grow: 1;
+}
+
+#c2{
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #password{
+    margin: 5px;
+    padding: 5px;
+    width: 85%;
+    height: 2rem;
+    border: 0.06rem solid black;
+    border-radius: 10px;
+    font-style: 'Inter', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#password{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#seehide{
+    cursor: pointer;
+    width: 25px;
+}
+
+#c3{
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+#login,#signup{
+    cursor: pointer;
+    width: 85%;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    font-style: 'Inter', serif;
+    -webkit-text-fill-color: white;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#login{
+    background-color: #06e306;
+}
+
+#login:hover{
+    transition: all 0.25s;
+    background-color: #5df85d;
+}
+
+#signup{
+    background-color: blue;
+}
+
+#signup:hover{
+    transition: all 0.25s;
+    background-color: #5a5aff;
+}
+
+#c4{
+    flex-grow: 1;
+}
