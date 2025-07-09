@@ -39,7 +39,7 @@ html, body{
     flex-direction: column;
 }
 
-#name, #password{
+#email, #password, #repassword{
     margin: 5px;
     padding: 5px;
     width: 85%;
@@ -54,6 +54,11 @@ html, body{
 #password{
     display: flex;
     flex-direction: row-reverse;
+}
+
+#repassword{
+    display: flex;
+    flex-direction: row-reverse; 
 }
 
 #seehide{
